@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: es
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "catalog"
+    label: "Catálogo"
+    files:
+      - name: "products"
+        label: "Productos"
+        file: "products.json"
+        fields:
+          - name: "products"
+            label: "Productos de la tienda"
+            label_singular: "Producto"
+            widget: "list"
+            summary: "{{fields.nombre}} · {{fields.cat}} · ${{fields.precio}}"
+            fields:
+              - name: "id"
+                label: "ID único"
+                widget: "number"
+                value_type: "int"
+                min: 1
+                hint: "Usa un número único mayor que el ID más alto del catálogo."
+              - name: "nombre"
+                label: "Nombre"
+                widget: "string"
+              - name: "precio"
+                label: "Precio (COP)"
+                widget: "number"
+                value_type: "int"
+                min: 1
+              - name: "cat"
+                label: "Categoría"
+                widget: "select"
+                options:
+                  - label: "Oro 18k"
+                    value: "oro18"
+                  - label: "Oro Laminado 18k"
+                    value: "laminado"
+                  - label: "Cover Gold"
+                    value: "cover"
+              - name: "img"
+                label: "Imagen del producto"
+                widget: "image"
+                required: false
+                hint: "Sube el archivo desde tu computador; se guardará en el sitio."
+              - name: "desc"
+                label: "Descripción"
+                widget: "text"
+                required: false
