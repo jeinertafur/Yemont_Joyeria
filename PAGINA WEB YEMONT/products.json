@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Anillo Solitario Aurora",
+      "precio": 1450000,
+      "cat": "oro18",
+      "desc": "Oro 18k con circonia central.",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Cadena Eslabón Clásico",
+      "precio": 1980000,
+      "cat": "oro18",
+      "desc": "Cadena de 45 cm en oro 18k.",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Aretes Perla Luna",
+      "precio": 890000,
+      "cat": "oro18",
+      "desc": "Aretes con perla de cultivo.",
+      "img": ""
+    },
+    {
+      "id": 4,
+      "nombre": "Pulsera Infinito",
+      "precio": 119000,
+      "cat": "laminado",
+      "desc": "Laminada en oro 18k, ajustable.",
+      "img": ""
+    },
+    {
+      "id": 5,
+      "nombre": "Collar Gota",
+      "precio": 98000,
+      "cat": "laminado",
+      "desc": "Dije de gota con baño de oro 18k.",
+      "img": ""
+    },
+    {
+      "id": 6,
+      "nombre": "Argollas Medianas",
+      "precio": 75000,
+      "cat": "laminado",
+      "desc": "Argollas ligeras, uso diario.",
+      "img": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Anillo Trenzado",
+      "precio": 49000,
+      "cat": "cover",
+      "desc": "Cover gold, diseño trenzado.",
+      "img": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Cadena Fina",
+      "precio": 55000,
+      "cat": "cover",
+      "desc": "Cadena delicada de 40 cm.",
+      "img": ""
+    },
+  ]
+}
